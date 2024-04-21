@@ -1,1 +1,9 @@
---------------------------------------
+---
+params:
+  filename: crime_random_sample.csv
+---
+
+```{r}
+data <- read.csv(params$filename)
+head(data)
+```
